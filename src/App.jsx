@@ -1,10 +1,12 @@
-import gmbr from "./img/LAMMING31.svg";
+import { Routes, Route } from "react-router-dom";
+import Cover from "./component/Cover";
 
 function App() {
   return (
     <>
-      <h1 className="text-blue-500">haloo</h1>
-      <img src={gmbr} alt="" />
+      <Routes>
+        <Route path="/:id" element={<Cover />} />
+      </Routes>
     </>
   );
 }
