@@ -103,7 +103,7 @@ export default function Cover() {
               )}
               {isBackgroundComplete && (
                 <motion.div
-                  className="flex justify-center font-sarlotte text-[#376D41] xl:text-sm text-sm mt-2 sm:text-[24px]"
+                  className="flex justify-center font-sarlotte text-[#376D41] xl:text-sm text-sm mt-1 mb-2 sm:text-[24px]"
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   transition={{ duration: 1, delay: 1 }}
@@ -123,7 +123,7 @@ export default function Cover() {
               )}
               {isBackgroundComplete && (
                 <motion.div
-                  className="flex justify-center font-myflora sm:mt-8 xl:text-sm xl:mt-0 text-[#376D41] text-2xl sm:text-[50px]"
+                  className="flex justify-center font-myflora sm:mt-8 xl:text-2xl xl:mt-0 text-[#376D41] my-2 text-3xl sm:text-[50px]"
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   transition={{ duration: 1, delay: 1 }}
@@ -133,7 +133,7 @@ export default function Cover() {
               )}
               {isBackgroundComplete && (
                 <motion.div
-                  className="flex justify-center font-sarlotte sm:mt-8 xl:text-[10px] xl:text-xs xl:mt-0 text-[#376D41] text-[10px] sm:text-xl"
+                  className="flex justify-center font-sarlotte sm:mt-8 xl:text-[13px] xl:text-xs xl:mt-0 text-[#376D41] text-[13px] mb-2 sm:text-xl"
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   transition={{ duration: 1, delay: 1 }}
