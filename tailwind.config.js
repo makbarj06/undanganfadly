@@ -7,6 +7,7 @@ export default {
         sarlotte: "sarlotte",
         carmitta: "carmitta",
         myflora: "myflora",
+        secondchild: "secondchild",
       },
     },
   },

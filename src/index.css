@@ -16,3 +16,8 @@
   font-family: "myflora";
   src: url("./font/Myflora-x9rLHZof.otf");
 }
+
+@font-face {
+  font-family: "secondchild";
+  src: url("./font/SecondChild.otf");
+}
