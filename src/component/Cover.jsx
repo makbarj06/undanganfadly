@@ -97,7 +97,7 @@ export default function Cover() {
                   <img
                     src={fotoPernikahan}
                     alt="Foto Pernikahan"
-                    className="w-[350px] sm:w-[500px] xl:w-[300px] mr-2 sm:mr-5 sm:-mt-5 -mt-5 "
+                    className="w-[320px] sm:w-[500px] xl:w-[300px] mr-2 sm:mr-5 sm:-mt-5 -mt-5 "
                   />
                 </motion.div>
               )}
