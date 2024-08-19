@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#root {
+  overflow: hidden;
+  width: 100wh;
+  height: 100vh;
+}
+
+@font-face {
+  font-family: "sarlotte";
+  src: url("./font/Sarlotte.otf");
+}
+
+@font-face {
+  font-family: "carmitta";
+  src: url("./font/Carmitta.ttf");
+}
