@@ -45,7 +45,7 @@ export default function Cover() {
         style={{ backgroundImage: `url(${bckgrnd})` }}
       >
         <motion.div
-          className="h-[85%] w-full bg-repeat-x sm:h-[88%] xl:h-[80%] sm:bg-repeat-x bg-[50%,0%]"
+          className="h-[80%] w-full bg-repeat-x sm:h-[88%] xl:h-[80%] sm:bg-repeat-x bg-[50%,0%]"
           style={{ backgroundImage: `url(${lammingAtas})` }}
           initial={{ y: "-100vh" }} // Start from off-screen (top)
           animate={{ y: 0 }} // Move to original position
@@ -97,7 +97,7 @@ export default function Cover() {
                   <img
                     src={fotoPernikahan}
                     alt="Foto Pernikahan"
-                    className="w-[300px] sm:w-[500px] xl:w-[300px] mr-2 sm:mr-5 sm:-mt-5 -mt-5 "
+                    className="w-[350px] sm:w-[500px] xl:w-[300px] mr-2 sm:mr-5 sm:-mt-5 -mt-5 "
                   />
                 </motion.div>
               )}
@@ -172,7 +172,7 @@ export default function Cover() {
           </div>
         </motion.div>
         <motion.div
-          className="h-[15%] bg-repeat-x sm:bg-[50%,0%] sm:h-[12%] xl:h-[20%] xl:bg-no-repeat xl:bg-cover"
+          className="h-[20%] bg-repeat-x sm:bg-[50%,0%] sm:h-[12%] xl:h-[20%] xl:bg-no-repeat xl:bg-cover"
           style={{ backgroundImage: `url(${lammingBawah})` }}
           initial={{ y: "100%" }}
           animate={{ y: "0%" }}
