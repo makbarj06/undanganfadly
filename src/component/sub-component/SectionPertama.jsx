@@ -6,7 +6,7 @@ export default function HalIntroduction() {
   return (
     <div className="w-full h-[861px] overflow-hidden  xl:flex justify-center  ">
       <div
-        className="xl:w-[360px] w-full h-[861px] relative "
+        className="xl:w-[360px] w-full h-[770px] relative "
         style={{
           backgroundImage: `url(${bckgrnd})`,
         }}
