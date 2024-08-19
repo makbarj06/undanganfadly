@@ -6,6 +6,7 @@ export default {
       fontFamily: {
         sarlotte: "sarlotte",
         carmitta: "carmitta",
+        myflora: "myflora",
       },
     },
   },

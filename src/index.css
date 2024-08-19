@@ -17,3 +17,8 @@
   font-family: "carmitta";
   src: url("./font/Carmitta.ttf");
 }
+
+@font-face {
+  font-family: "myflora";
+  src: url("./font/Myflora-x9rLHZof.otf");
+}
